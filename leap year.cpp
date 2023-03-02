@@ -9,10 +9,10 @@ int main()
 	
 	if(yr % 4 == 0 && yr % 100 != 0 || yr % 400 == 0)
 	{
-		cout << "The year is leap." << endl;
+		cout << "This year is leap year." << endl;
 	}
 	else
 	{
-		cout << "Year is not leap year" << endl;
+		cout << "This year is not leap year" << endl;
 	}
 }
